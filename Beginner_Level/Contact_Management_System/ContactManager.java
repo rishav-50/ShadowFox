@@ -92,6 +92,13 @@ public class ContactManager {
         }
     }
 
+/*************  ✨ Windsurf Command ⭐  *************/
+    /**
+     * Deletes a contact from the contact list based on the user's input.
+     * Displays the list of current contacts, prompts the user to enter the
+     * contact number to delete, and removes the contact if the number is valid.
+
+/*******  d81ed2f1-7a03-4fc4-92eb-d52918237815  *******/
     static void deleteContact() {
         viewContacts();
         System.out.print("Enter contact number to delete: ");
